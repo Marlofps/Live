@@ -1,0 +1,80 @@
+body{
+    font-family: sans-serif;
+    background: rgb(94,86,73);
+    background: linear-gradient(160deg, rgba(94,86,73,1) 0%, rgba(225,179,102,1) 35%, rgba(163,106,53,1) 100%);
+}
+h1{
+    text-align: center;
+}
+
+#comida{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 180vh;
+    max-height: 50vh;
+    border-radius: 3vh;
+    
+}
+
+h2{
+    text-align: center;
+    
+}
+
+#ingrediente{
+    margin: 0 auto;
+    width: 180vh;
+    display: flex;
+    flex-direction: column;
+    border-left: 100px;
+}
+
+#preparo{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse; 
+    
+}
+
+li{
+    padding: 10px;
+    left: 100px;
+}
+
+#panela{
+    max-width: 6vh;
+}
+
+ol{
+    margin: 0 auto;
+    width: 180vh;
+    display: flex;
+    flex-direction: column;
+    border-left: 100px;
+}
+
+#info{  
+    max-width: 50vh;
+    display: block;
+    margin: 0 auto;
+    border-radius: 2vh;
+}
+
+#idontknow{
+    margin: 0 auto;
+    width: 170vh;
+    display: flex;
+    flex-direction: column;
+    border-left: 100px;
+    
+}
+
+.link { 
+    color: inherit; 
+    text-decoration: none;
+} 
